@@ -1,0 +1,34 @@
+=== BLIP-2_ZeroShot Zero-Shot Evaluation ===
+Total samples : 790
+
+Predicted class distribution:
+Non Disaster      155
+Flood             147
+Tropical Storm     92
+Wildfire           92
+Earthquake         90
+Human Damage       78
+Drought            73
+Landslides         63
+Name: count, dtype: int64
+
+Accuracy           : 84.68%
+Macro Precision    : 88.90%
+Macro Recall       : 84.83%
+Macro F1-score     : 85.03%
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    Earthquake     0.9889    0.8900    0.9368       100
+         Flood     0.6667    0.9800    0.7935       100
+    Landslides     1.0000    0.6300    0.7730       100
+      Wildfire     0.9457    0.9667    0.9560        90
+Tropical Storm     1.0000    0.9200    0.9583       100
+       Drought     1.0000    0.7300    0.8439       100
+  Human Damage     0.8718    0.6800    0.7640       100
+  Non Disaster     0.6387    0.9900    0.7765       100
+
+      accuracy                         0.8468       790
+     macro avg     0.8890    0.8483    0.8503       790
+  weighted avg     0.8882    0.8468    0.8489       790
