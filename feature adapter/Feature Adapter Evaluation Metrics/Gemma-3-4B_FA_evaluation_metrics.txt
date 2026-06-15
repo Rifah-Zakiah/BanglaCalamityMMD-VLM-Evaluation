@@ -1,0 +1,23 @@
+================================================================================
+Gemma Text Feature Adapter + Bangla Text Classifier
+================================================================================
+Accuracy        : 92.53%
+Macro Precision : 92.67%
+Macro Recall    : 92.61%
+Macro F1        : 92.40%
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    Earthquake     0.9519    0.9900    0.9706       100
+         Flood     0.9583    0.9200    0.9388       100
+    Landslides     0.9691    0.9400    0.9543       100
+      Wildfire     0.8641    0.9889    0.9223        90
+Tropical Storm     0.9510    0.9700    0.9604       100
+       Drought     0.9620    0.7600    0.8492       100
+  Human Damage     0.8485    0.8400    0.8442       100
+  Non Disaster     0.9091    1.0000    0.9524       100
+
+      accuracy                         0.9253       790
+     macro avg     0.9267    0.9261    0.9240       790
+  weighted avg     0.9275    0.9253    0.9240       790

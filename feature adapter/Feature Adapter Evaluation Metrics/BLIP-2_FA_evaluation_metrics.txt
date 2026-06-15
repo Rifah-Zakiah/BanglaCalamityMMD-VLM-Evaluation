@@ -1,0 +1,23 @@
+================================================================================
+BLIP2 Image Feature Adapter + Bangla Text Classifier
+================================================================================
+Accuracy        : 93.29%
+Macro Precision : 93.61%
+Macro Recall    : 93.28%
+Macro F1        : 93.29%
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    Earthquake     0.8919    0.9900    0.9384       100
+         Flood     0.9320    0.9600    0.9458       100
+    Landslides     0.9684    0.9200    0.9436       100
+      Wildfire     0.9765    0.9222    0.9486        90
+Tropical Storm     0.9900    0.9900    0.9900       100
+       Drought     0.9765    0.8300    0.8973       100
+  Human Damage     0.8725    0.8900    0.8812       100
+  Non Disaster     0.8807    0.9600    0.9187       100
+
+      accuracy                         0.9329       790
+     macro avg     0.9361    0.9328    0.9329       790
+  weighted avg     0.9356    0.9329    0.9327       790

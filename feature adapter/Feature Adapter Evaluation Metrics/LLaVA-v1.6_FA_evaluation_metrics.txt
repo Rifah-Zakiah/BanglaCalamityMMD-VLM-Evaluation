@@ -1,0 +1,23 @@
+================================================================================
+LLaVA Feature Adapter + Bangla Text Classifier
+================================================================================
+Accuracy        : 94.81%
+Macro Precision : 95.14%
+Macro Recall    : 94.86%
+Macro F1        : 94.80%
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    Earthquake     0.8772    1.0000    0.9346       100
+         Flood     0.9340    0.9900    0.9612       100
+    Landslides     0.9890    0.9000    0.9424       100
+      Wildfire     0.9570    0.9889    0.9727        90
+Tropical Storm     1.0000    0.9800    0.9899       100
+       Drought     1.0000    0.8700    0.9305       100
+  Human Damage     0.9451    0.8600    0.9005       100
+  Non Disaster     0.9091    1.0000    0.9524       100
+
+      accuracy                         0.9481       790
+     macro avg     0.9514    0.9486    0.9480       790
+  weighted avg     0.9513    0.9481    0.9477       790
